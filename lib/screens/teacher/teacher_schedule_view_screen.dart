@@ -35,7 +35,7 @@ class _TeacherScheduleViewScreenState extends State<TeacherScheduleViewScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Jadwal Mengajar"),
+        title: const Text("Jadwal Pelajaran"),
         bottom: TabBar(
           controller: _tabController,
           isScrollable: true,

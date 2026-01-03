@@ -333,7 +333,7 @@ class TeacherDashboardScreen extends StatelessWidget {
           ),
         ),
         _buildMenuCard(
-          title: 'Jadwal Mengajar',
+          title: 'Jadwal Pelajaran',
           icon: Icons.calendar_today,
           onTap: () => Navigator.push(
             context,
